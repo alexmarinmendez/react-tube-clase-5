@@ -1,5 +1,14 @@
+import './App.css';
+import Navbar from './components/Navbar';
+import Videos from './containers/Videos';
+
 const App = () => {
-  return <h1>Hola Mundo!!! 👋👋👋</h1>;
+  return (
+    <>
+      <Navbar />
+      <Videos />
+    </>
+  );
 };
 
 export default App;

@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    color: #111;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1rem 5rem;
+    background: #f3f3f3;
+    margin-bottom: 2rem;
+    box-shadow: 0 1px 11px 3px rgb(0 0 0/21%);
+  }
+  
+  header a {
+    color: #ad343e;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .search-area {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem;
+    margin: 0 auto;
+  }
+  
+  .search-area form {
+    background-color: #e6c521;
+    width: 23rem;
+    margin: 0 auto;
+    padding: 2rem 1rem 1rem 1rem;
+    border: 3px solid #d8dee6;
+    border-radius: 5px;
+  }
+  
+  .search-area label {
+    display: block;
+  }
+  
+  .search-area input {
+    margin-bottom: 1.9rem;
+    font-size: 1.2rem;
+    height: 1.9rem;
+    width: 20rem;
+  }
+  
+  .search-area button {
+    margin: 0 auto;
+    display: block;
+    padding: 5px 25px;
+    color: white;
+    font-size: 1.1rem;
+    background-color: #ad343e;
+    border: #111 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-result {
+    background-color: #f3f3f3;
+    border-radius: 9px;
+    margin: 1.5rem 0;
+  }
+  
+  .video-container {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    padding: 25px 15px;
+    border-bottom: #d8dee6 2px solid;
+    text-decoration: none;
+  }
+  
+  .video-image {
+    margin: 0 20px 0 10px;
+  }
+  
+  .video-info {
+    width: 80%;
+    height: 100px;
+  }
+  
+  .video-info h3 {
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .video-info h4 {
+    font-weight: 500;
+  }
+  
+  .video-info p {
+    color: grey;
+  }
